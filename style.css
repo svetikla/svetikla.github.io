@@ -1,43 +1,42 @@
 body {
-  font-family: monospace;
-  background-color: #000;
+  margin: 20px;
+  max-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  background-color: #181a1b;
   color: #ccc;
   font-size: 20px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  padding-left: 130px;
 }
 
 h1 {
   color: #fff;
   font-weight: 400;
-  font-size: 45px;
-  margin: 0 0 10px 0;
+  font-size: 44px;
+}
+
+ul {
+  margin: 2px 0;
 }
 
 .fav {
   margin-top: 30px;
   display: flex;
   flex-direction: column; 
-  gap: 8px;
 }
 
 .links {
   position: fixed;
-  bottom: 30px;
-  left: 130px;
+  left: 20px;
+  bottom: 20px;
   display: flex;
   gap: 20px;
 }
 
 .links a, .fav a {
-  color: #0040ff;
+  color: #2060ff;
 }
 
 .links a:hover, .fav a:hover {
-  color: #999;
   text-decoration: underline;
 }
 
@@ -46,6 +45,7 @@ a {
 }
 
 p {
-  margin: 5px 0;
+  margin: 10px 0;
+  max-width: 400px;
 }
 
